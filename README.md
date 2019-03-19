@@ -2,10 +2,10 @@
 
 # Usage:
 
-## import PatternRecognition
-## instantiate an object and give it a list of data as follows:
+- import PatternRecognition
+- instantiate an object and give it a list of data as follows:
 `
-
+```
 data = [
   "A-1012331/9",
   "A-1231141/2",
@@ -16,7 +16,9 @@ data = [
   "A-1237141/7",  
  ]
 
-pr = PatternRecognition(data)`
+pr = PatternRecognition(data)
+
+```
 
 ## available methods
 
