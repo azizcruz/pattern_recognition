@@ -1,4 +1,3 @@
-from pdb import set_trace
 from PatternRecognition import PatternRecognition
 
 data = [
@@ -18,8 +17,8 @@ pr = PatternRecognition(data)
 # pr.get_formatted_list() => to get the current list. (returns a list)
 # pr.print_formatted_list() => to print the whole list of data with showing where the data is dirty.
 # pr.get_matches() => to print total number of matches with the pattern in the list. (still need some optimizations)
-# pr.get_mismatches() => same is get_matches(), instead it returns mismatches.
+# pr.get_mismatches() => same as get_matches(), instead it returns mismatches.
 # pr.get_message() => returns a message that display if everything is fine.
-# pr.get_status() => returns a number [1 => list is ok, 5 => list is corruptedd]
+# pr.get_status() => returns a number [1 => list is ok, 5 => list is corrupted]
 
 print(pr.get_pattern())
