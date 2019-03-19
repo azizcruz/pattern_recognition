@@ -2,7 +2,7 @@
 
 # Usage:
 
-- import PatternRecognition
+- import PatternRecognition module
 - instantiate an object and give it a list of data as follows:
 `
 ```
